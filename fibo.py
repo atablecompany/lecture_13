@@ -10,7 +10,7 @@ def recursive_nth_fibo(n):
 
 
 def main():
-    print(recursive_nth_fibo(n=7))
+    print(recursive_nth_fibo(n=int(input("Zadej kolikaty prvek fibo posloupnosti chces: "))))
 
 
 if __name__ == '__main__':
