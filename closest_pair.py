@@ -1,6 +1,7 @@
 import os
 import csv
 import matplotlib.pyplot as plt
+import math
 
 cwd_path = os.getcwd()
 file_path = 'files'
@@ -65,6 +66,9 @@ def main(file_name):
 
     # draw points
     draw_data(data_points)
+
+    # closest pair by brute force
+    print(closest_pair_BF(data_points))
 
 
 if __name__ == '__main__':
